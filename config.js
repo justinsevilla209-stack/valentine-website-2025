@@ -5,17 +5,17 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     
-    valentineName: "Lalida",
+    valentineName: "Mauii",
 
     // The title that appears in the browser tab
     // You can use emojis!
-    pageTitle: "Will You Be My Valentine, Schatz? 🩵",
+    pageTitle: "Will You Be My Valentine, Baby? ❤️",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['💖', '🩵', '😘'],  // Heart emojis
-        bears: ['🐥', '🥬']                       // Cute bear emojis
+        hearts: ['❤️', '😍', '😘'],  // Heart emojis
+        bears: ['🦦', '💕']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -23,8 +23,8 @@ const CONFIG = {
     questions: {
         first: {
             text: " Do you like me ?",                                    // First interaction
-            yesBtn: "Ja",                                             // Text for "Yes" button
-            noBtn: "Nein",                                               // Text for "No" button
+            yesBtn: "YES",                                             // Text for "Yes" button
+            noBtn: "N O.",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
@@ -34,32 +34,32 @@ const CONFIG = {
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "JAAAAA !",                                             // Text for "Yes" button
-            noBtn: "NEIN🥹"                                                 // Text for "No" button
+            yesBtn: "OFCOURSE :DD!",                                             // Text for "Yes" button
+            noBtn: "NOOOOOO 🥺"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Ohhh wirklich?! sub2:50?? 🥰🚀🩵",  // Shows when they go past 5000%
-        high: "sub3! 🚀🩵",              // Shows when they go past 1000%
-        normal: "sub4 🥰"                           // Shows when they go past 100%
+        extreme: "OOOOOOOO WOAHHHHHHHH SAVAGE 😼❤️💕😍 OOOOOOO SAVAGE 🥰🦦😍",  // Shows when they go past 5000%
+        high: "SAVAGEEEE🦦💕",              // Shows when they go past 1000%
+        normal: "MOREEEEEEE❤️"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 😭🩵🩵🩵",
-        message: "Now come get your gift, a big warm hug and a huge kiss😘🐥🩵!",
-        emojis: "💖💖💖"  // These will bounce around
+        title: "Yay! I'm da real winner 😼😼😼",
+        message: "Now come get your gift, my flowers and these chocolates I got you :D!",
+        emojis: "💖🦦💖"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#4fb7b3",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
+        backgroundStart: "#FF9ED3",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#F065B2",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#C9366C",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/duhlgtfiv/video/upload/v1771123827/Laufey_-_Valentine_Official_Audio_fljbd8.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
